@@ -1,0 +1,73 @@
+.desafio{
+    background: $light-green;
+    color:#000;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 200%;
+    text-align: center;
+    width: 100vw;
+}
+.card{
+    background: #fff;
+    border-radius: 3px;
+	box-shadow: 1px 1px 1px 3px #88888860;
+    left: 10vw;
+    list-style: none;
+    position: absolute;
+    width: 80vw;
+    li{
+        list-style: none;
+        text-align: left;
+    }
+}
+.pic{
+    border-radius: 100%;
+    margin-top: 1rem;
+    width: 35%;
+}
+.info{
+    color:$dark-green;
+    list-style: none;
+}
+.profile{
+    color:$dark-green;
+}
+button{
+    background: #fff;
+    border-radius: 0.5rem;
+    border:1px solid $green;
+    height: 2rem;
+    outline: none;
+    width: 9rem;
+}
+.__btn-text{
+    color: $green;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+.repo-block{
+
+   .__title{
+    color: $dark-green;
+}
+  li{
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    margin-left: -2.5rem;
+    padding: 0.3rem;
+    padding-left: 3rem;
+}
+
+    li:nth-child(even){
+        background-color: #fff;
+    }
+    li:nth-child(odd){
+        background-color: $light-green;
+    }
+}
+
+
+
+
